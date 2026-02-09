@@ -1,5 +1,5 @@
-Name,Email,Phone,College,Degree,Year
-John Doe,john@email.com,1234567890,MIT,Computer Science,3
-Jane Smith,jane@email.com,0987654321,Stanford,Software Engineering,2
-Bob Lee,bob@email.com,5551234567,Berkeley,Data Science,4
-Alice Wong,alice@email.com,5559876543,Harvard,Information Systems,2
+"Timestamp","Name","Email","Phone number","College/University Name","Degree Name","Year of Study"
+"2026/02/08 2:54:20 pm GMT+5:30","Jhon Doe","jhondoe@gmail.com","9113249166","MIT","Computer Science","3"
+"2026/02/08 2:54:57 pm GMT+5:30","Bob Lee","bob@gmail.com","9113249167","TUB","Data Science","4"
+"2026/02/08 2:55:38 pm GMT+5:30","Jane Smith","jane@gmail.com","9113249168","Standford","IT","2"
+"2026/02/08 2:58:38 pm GMT+5:30","Alice Wong","alice@gmali.com","9113249169","Harvard","Information System","2"
