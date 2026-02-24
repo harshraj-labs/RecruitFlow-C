@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "file_validator.h"
+#include "utils.h"
 
 // Check if a file exists
 int file_exists(const char* filepath) {
@@ -17,6 +18,9 @@ int file_exists(const char* filepath) {
 void validate_applicant_files(struct Applicant applicants[], int num_applicants, const char* incoming_folder) {
     printf("Validating applicant files in: %s\n", incoming_folder);
     printf("==========================================\n\n");
+
+    //loading animation
+    show_loading("Scanning files...",2000);
     
     for (int i = 0; i < num_applicants; i++) {
         char filepath[512];

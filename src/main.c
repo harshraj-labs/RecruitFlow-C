@@ -3,6 +3,7 @@
 #include "applicant.h"
 #include "csv_handler.h"
 #include "file_validator.h" 
+#include "utils.h"
 
 #define MAX_APPLICANTS 100
 
@@ -11,6 +12,9 @@ int main() {
     printf("Recruit Flow\n");
     printf("================================\n\n");
     
+    //startup animation
+    show_loading("Intializing...",1000);
+
     // Array to hold all applicants
     struct Applicant applicants[MAX_APPLICANTS];
     

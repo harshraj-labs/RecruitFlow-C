@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "csv_handler.h"
+#include "utils.h"
 
 /* Since the google form generated csv contains "Quotes",
 we need to make a function to remove quotes first*/
@@ -41,6 +42,9 @@ int read_applicant_from_csv(const char* filename, struct Applicant applicants[],
     }
     
     printf("Reading CSV file: %s\n", filename);
+
+    //loading animation
+    show_loading("Loading applicants data...",1000);
     
     char line[2000];
     int applicant_count = 0;  
