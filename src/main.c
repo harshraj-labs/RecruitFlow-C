@@ -3,6 +3,7 @@
 #include "applicant.h"
 #include "csv_handler.h"
 #include "file_validator.h" 
+#include "csv_writer.h"
 #include "utils.h"
 
 #define MAX_APPLICANTS 100
@@ -28,6 +29,12 @@ int main() {
     
     // Validating files for each applicant
     validate_applicant_files(applicants, num_applicants, "../test_data/Incoming");
+
+    // ✅ Generate CSV reports
+    if (generate_csv_reports(applicants, num_applicants, "../output") < 0) {
+        printf("Failed to generate CSV reports!\n");
+        return 1;
+    }
     
     // Displaying summary
     printf("SUMMARY:\n");
