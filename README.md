@@ -199,7 +199,7 @@ Not Eligible: 2
 |-----------|----------------|---------------------|
 | Resume | `FirstName_LastName_Resume.pdf` | `.pdf` |
 | ID Card | `FirstName_LastName_ID.jpg` | `.jpg`, `.jpeg`, `.png` |
-| Project | `FirstName_LastName_Project.mp4` | `.mp4`, `.avi`, `.mov` |
+| Project | `FirstName_LastName_Project.mp4` | `.mp4`|
 
 **Rejection Reasons:**
 - Missing files
