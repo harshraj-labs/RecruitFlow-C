@@ -1,10 +1,15 @@
 # RecruitFlow - Internship Application Validator
 
-A C-based command-line tool that automates the validation and organization of internship applications. Built to help HR teams efficiently process bulk applications from Google Forms.
+A C-based command-line tool that automates the validation and organization of internship applications. Built to simulate how HR teams process bulk internship applications from Google Forms.
 
 ## 🎯 Problem Statement
 
 When companies receive hundreds of internship applications via Google Forms, manually checking if each applicant submitted the correct files (resume, ID, project showcase) with proper naming conventions is time-consuming and error-prone. This tool automates that entire process.
+
+## 💡 Why I Built This
+
+As a first-year CSE student and member of the placement committee, I wanted to understand how bulk internship applications are processed and 
+validated. This project simulates that workflow and helped me practice file handling, parsing, and modular C programming.
 
 ## ✨ Features
 
@@ -22,11 +27,6 @@ When companies receive hundreds of internship applications via Google Forms, man
 - **Version Control:** Git/GitHub
 - **Resource Compiler:** windres (for application icon)
 - **Platform:** Windows (portable to Linux/Mac)
-
-## 💡 Why I Built This
-
-As a first-year CSE student and member of the placement committee, I wanted to understand how bulk internship applications are processed and 
-validated. This project simulates that workflow and helped me practice file handling, parsing, and modular C programming.
 
 ## 📂 Project Structure
 ```
@@ -91,7 +91,7 @@ RecruitFlow/
 
 1. Clone the repository:
 ```bash
-git https://github.com/harshraj-labs/RecruitFlow-C
+git clone https://github.com/harshraj-labs/RecruitFlow-C.git
 cd RecruitFlow
 ```
 
@@ -236,6 +236,14 @@ This project is open source and available under the [MIT License](LICENSE).
 - Built as a portfolio project to demonstrate C programming skills
 - Inspired by real-world HR automation 
 - Inspired by observing real-world placement and recruitment workflows.
+
+## 💻 What I Learned
+- File handling in C
+- Parsing CSV data
+- Modular program design
+- Validation logic
+- Debugging large C programs
+- Using Git for version control
 
 ---
 
